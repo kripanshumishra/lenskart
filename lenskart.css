@@ -1,0 +1,96 @@
+body{
+    background-color:white;
+    color:black
+}
+.mydark{
+    background-color:black;
+    color:white
+}
+
+#btn{
+ /* margin-right: 40%;
+ z-index: 100%; */
+}
+
+p{
+    font-size: 13px;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    text-align: center;
+}
+.social-icons{
+    display: inline-flex;
+    padding: 0% 47.5%;
+    font-size: 25px;
+    margin-bottom: 1%;
+}
+.ReadMore{
+    width: 100%;
+    margin-bottom: 1%;
+    padding:15px;
+}
+.ReadMore h3{
+    margin-right: 2%;
+}
+.ReadMore h5{
+    margin-top: 0.5%;
+    margin-right: 2%;
+}
+.ReadMore a{
+    font-size: 15px;
+    margin-top: 5px;
+}
+h2{
+    text-align: center;
+}
+.footer_top li{
+display:table-cell;
+text-align: center;
+display: inline-flex;
+font-size: 16px;
+padding:0% 6%;
+}
+.footer_2 ul li{
+    display:table-cell;
+    text-align: center;
+    display: inline-flex;
+    font-size: 12px;
+    padding:1% 4%;
+}
+
+.footer_3{
+    display: inline-flex;
+}
+h6{
+    text-align: center;
+}
+
+.location{
+    display:flex;
+    color:rgb(27, 27, 26);
+    /* margin-left:2%; */
+    margin-top:1%
+}
+
+#coupon{
+    height:400px;
+    width:600px;
+    left:27%;
+    background-image:url("images/content_or520_promo-multipaire_bandeau-site-web_1200x460-en.png");
+    visibility: hidden;
+    z-index: 100;
+    position: absolute;
+    margin-top:10%;
+    background-size:100% 350px;
+   
+}
+.closes{
+    position: absolute;
+    margin-left: 92%;
+    color: rgb(253, 4, 4);
+    margin-top: -34%;
+    
+}

@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+    crossorigin="anonymous"></script>
+  <link href="lenskart.css" rel="stylesheet" type="text/css" />
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://kit.fontawesome.com/97f33a6782.js" crossorigin="anonymous"></script>
+  <script defer src="lenskart.js"></script>
+  <!-- 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+</head>
+
+<body>
+  <!--------------------------------------------Navbar---------------------------------------------->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="https://static.lenskart.com/media/desktop/img/site-images/dark_logo.svg" alt="Lenskart"
+          title="Lenskart" style="margin-top: 7px;">
+      </a>
+      <i class="bi bi-telephone-inbound-fill" style="font-size: 15px;">1800-111-111</i>
+      <form class="d-flex">
+        <div class="dropdown">
+          <select id="Brand" style="font-size: 13px;">
+            <option>What are you looking for</option>
+          </select>
+        </div>
+      </form>
+      <a href="#" title="Track Order" style="text-decoration: none; color: black; font-size: 13px;">Track Order</a>
+      <a href="signin/signin.html" style="text-decoration: none; color: black; font-size: 13px;">Sign In & Sign Up</a>
+      <a href="#" title="WishList" style="text-decoration: none; color: black; font-size:13px"><i
+          class="fas fa-cart-plus">WishList</i></a>
+      <i class="fas fa-heart" style="text-decoration: none; color: black; font-size:13px">Cart</i>
+    </div>
+  </nav>
+  <!--------------------------------------------Categories---------------------------------------------->
+  <div class="card" style="margin-bottom: 2%; display: inline;">
+    <center>
+      <div class="card1" style="float: left; margin-left: 8%;">
+        <a href="product.html"><img src="images/eyeg.webp" class="img-responsive"
+            style="width:200px; margin-right: 10px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">Eyeglasses</h4>
+        </div>
+      </div>
+      <div class="card2" style="float: left;">
+        <a href="#"><img src="images/sung.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">sunglasses</h4>
+        </div>
+      </div>
+      <div class="card3" style="float: left;">
+        <a href="#"><img src="images/ceg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">computer glasses</h4>
+        </div>
+      </div>
+      <div class="card4" style="float: left; border: gray;">
+        <a href="#"><img src="images/clg.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">contact lenses</h4>
+        </div>
+      </div>
+      <div class="card5" style="float: left;">
+        <a href="#"><img src="images/psg3.webp" class="img-responsive" style="width:200px; margin-right: 10px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">Power Sunglasses</h4>
+        </div>
+      </div>
+      <div class="card6" style="float: left;">
+        <a href="#"><img src="images/readglasses.webp" class="img-responsive"
+            style="width:200px; margin-right: 10px;"></a>
+        <div class="card-body">
+          <h4 class="card-title">Reading Glasses</h4>
+        </div>
+      </div>
+    </center>
+  </div>
+
+
+  <!--------------------------------------------Banner---------------------------------------------->
+  <div class="ReadMore" style="display: inline-flex; background-color: rgb(224, 198, 189); width:100%; ">
+    <h3>We are Serving &nbsp</h3>
+    <h5>LensKart Stores, Online & Home Eye Test-will continue to serve. For Queries or Talking to Eyewear Expert call
+      at
+      1800-111-111 &nbsp</h5>
+    <a href="#">KnowMore &nbsp</a>
+  </div>
+  <!--------------------------------------------Carousel---------------------------------------------->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+        aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+        aria-label="Slide 5"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/carousel1.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousel2.gif" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousel3.webp" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="images/carousel4.webp" class="d-block w-100" alt="...">
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!--------------------------------------------Blog---------------------------------------------->
+  <center>
+    <h4 class="font-head" style="font-size: 30px; margin-top: 5px;">
+      Our Blog
+    </h4>
+    <a href="#"><img src="images/Our Blog.webp" class="img-responsive"
+        style="height: 400px; margin-bottom: 2%; width: 700px;"></a>
+  </center>
+
+
+  <!--------------------------------------------About---------------------------------------------->
+  <h1>Buy The Best Eyewear From Lenskart</h1>
+  <p>Lenskart is the leading e-commerce portal for eyewear in India. It has revolutionised the eyewear industry in the
+    country with its omni-channel approach. From an ever-growing number of offline stores across major cities in the
+    country to innovative integration of technology while purchasing online, Lenskart caters to every customer with
+    several deals and offers.</p>
+  <p>A one-stop online solution for purchasing eyewear and its accessories, Lenskart delivers them right at your
+    doorstep with convenient methods of payment. Sunglasses as well as eyeglasses are available for men and women in a
+    diverse array of styles and trendy colours. If you want to try out contact lenses, pick the ones of your choice
+    from
+    the extensive variety of coloured <a href="#">contact lenses</a> from our online store.</p>
+  </div>
+</body>
+
+<!--------------------------------------------Footer---------------------------------------------->
+<footer style="background-color: #05476f; color:whitesmoke;">
+
+  <h3>Follow Us</h3>
+  <div class="social-icons">
+    <a href="#"><i class="bi bi-facebook"></i></a>
+    <!-- <a href="https://www.facebook.com/Lenskartindia" target="blank" style="text-decoration: none;"><i
+      class="bi bi-facebook" alt="facebook" title="facebook" style="color: black; text-align: center;"></i></a>
+  <a href="https://twitter.com/Lenskart_com" target="blank" style="text-decoration: none;"><i class="bi bi-twitter"
+      alt="twitter" title="twitter" style=" color: black; text-align: center;"></i></a>
+  <a href="https://www.instagram.com/lenskart/" target="blank" style="text-decoration: none;"><i
+      class="bi bi-instagram" alt="insta" title="instagram" style="color: black; text-align: center;"></i></a> -->
+  </div>
+
+  <h3>Download Lenskart App to but Eyeglasses , Sunglasses and Contact Lenses </h3>
+  <section class="footer_Wrap">
+    <ul class="footer_top">
+      <li>
+        <a target=_blank href="https://stores.lenskart.com/"></a>
+        <span>STORE LOCATOR</span>
+      </li>
+      <li>
+        <a target=_blank href="https://stores.lenskart.com/"></a>
+        <span>FAQ</span>
+      </li>
+      <li>
+        <a target=_blank href="https://stores.lenskart.com/"></a>
+        <span>ENTER MY POWER</span>
+      </li>
+      <li>
+        <a target=_blank href="https://stores.lenskart.com/"></a>
+        <span>BUYING GUIDE</span>
+      </li>
+      <li>
+        <a target=_blank href="https://stores.lenskart.com/"></a>
+        <span>FRAME SIZE</span>
+      </li>
+    </ul>
+  </section>
+  <section class="footer_2">
+    <ul class=footer_bottom style="font-size: 5px; padding:0% 0%">
+      <li>We are hiring</li>
+      <li>Refer and Earn</li>
+      <li>About Us</li>
+      <li>T&C</li>
+      <li>Site Map</li>
+      <li>Disclaimer</li>
+      <li>Privacy</li>
+      <li>LensKart Coupons</li>
+    </ul>
+  </section>
+  <div class="footer_3" style="text-align: center; margin-left: 22%; font-weight: light;">
+    <div class="category1" style="display:inline;">
+      <h3 style="color: rgb(240, 241, 165);">Eyeglasses</h3>
+      <p class="types1" style="margin-left: 5%; margin-top: 1%;">Free Frame | Ray-Ban | Vincent Chase | CatEye</p>
+    </div>
+    <div class="category2" style="display:inline;">
+      <h3 style="color: rgb(240, 241, 165);">Sunglasses</h3>
+      <p class="types2" style="margin-left: 5%; margin-top: 1%;">Ray Ban | Oakley | John Jacobs | Vincent Chase</p>
+    </div>
+    <div class="category3" style="display:inline;">
+      <h3 style="color:rgb(240, 241, 165)">ContactLenses</h3>
+      <p class="types3" style="margin-left: 5%; margin-top: 1%;">Bausch and lomb | Colour lenses | Daily disposable |
+        Monthly disposable</p>
+    </div>
+  </div>
+  <hr />
+  <h6>&copy Since 2002 Lenskart. All rights reserved</h6>
+</footer>
+</div>
+
+<script>
+
+  var y = document.getElementById("address")
+  var z = document.getElementById('icon')
+  function geolocation() {
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(showPosition)
+    } else {
+      x.innerText = "Geo Not Supported"
+    }
+  }
+
+  function showPosition(data) {
+    console.log(data)
+    let lat = data.coords.latitude;
+    let long = data.coords.longitude
+    var url = `https://api.openweathermap.org/data/2.5/forecast/daily?lat=${lat}&lon=${long}&mode=json&units=metric&cnt=1&appid=fbf712a5a83d7305c3cda4ca8fe7ef29`
+    fetch(url)
+      .then((res) => res.json())
+      .then((data) => {
+        console.log(data)
+        data.list.map((item) => {
+          console.log(item.temp.day)
+          y.innerText = `${item.temp.day}°C and ${item.weather[0].description}`
+          z.innerHTML = `<img class='card-img-top' src='https://openweathermap.org/img/w/${item.weather[0].icon}.png' alt='weather'/>`
+        })
+
+      })
+  }
+  window.onload = geolocation()
+</script>
+
+</html>
